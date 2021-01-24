@@ -1,0 +1,41 @@
+{
+  "name": "math",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server src",
+    "lint": "eslint . --fix",
+    "test": "jest",
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlgaMartinikhina/math.git"
+  },
+  "author": "OlgaMartinikhina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlgaMartinikhina/math/issues"
+  },
+  "homepage": "https://github.com/OlgaMartinikhina/math#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-jest": "^26.6.3",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "html-webpack-plugin": "^4.5.1",
+    "http-server": "^0.12.3",
+    "jest": "^26.6.3",
+    "webpack": "^5.17.0",
+    "webpack-cli": "^4.4.0"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3"
+  }
+}
